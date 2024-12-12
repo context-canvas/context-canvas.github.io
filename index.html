@@ -163,7 +163,7 @@
     <!-- Paper Method Diagram -->
     <h2 class="title is-3">Method</h2>
     <div class="publication-diagram">
-      <img id="method-diagram" src="./static/images/method-diagram.jpg" alt="Paper Method Diagram" style="width: 100%; height: auto;">
+      <img id="method-diagram" src="./static/images/method-diagram.jpg" alt="Paper Method Diagram" style="width: 150%; height: auto;">
       <h2 class="subtitle method-caption" style="font-size: 1rem; text-align: justify; margin-top: 10px;">
         Context Canvas introduces a novel a knowledge graph-based Retrieval-Augmented Generation (RAG) framework to 
         enhance text-to-image diffusion models for context-driven generation and editing of images with complex, 
@@ -183,24 +183,35 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-    <!-- Qualitative Results Section -->
+    <!-- Qualitative Results Main Heading -->
+    <div class="columns is-centered">
+      <div class="column has-text-centered">
+        <h2 class="title is-3">Qualitative Results</h2>
+      </div>
+    </div>
+
+    <!-- Image Generation Subheading -->
+    <div class="columns is-centered">
+      <div class="column has-text-centered">
+        <h3 class="title is-4">Image Generation</h3>
+      </div>
+    </div>
+
+    <!-- Image Generation Results -->
     <div class="columns is-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Qualitative Results</h2>
-
-        <!-- Image Generation Result -->
-        <div class="content">
+        <div class="content has-text-centered">
           <img id="image-generation" src="./static/images/image-generation.jpg" alt="Image Generation Results" style="width: 100%; height: auto; margin-top: 20px;">
           <h2 class="subtitle result-caption" style="font-size: 1rem; text-align: justify; margin-top: 10px;">
             This figure demonstrates the image generation capabilities of our proposed method. The framework retrieves relevant knowledge from the graph to generate semantically meaningful and contextually accurate images, tailored to specific prompts.
           </h2>
         </div>
-
-        <!-- Placeholder for Additional Content -->
-        <div id="additional-content" style="margin-top: 30px;">
-          <!-- Add more images or results here -->
-        </div>
       </div>
+    </div>
+
+    <!-- Placeholder for Editing and Self-Correction Results -->
+    <div class="columns is-centered" id="additional-content" style="margin-top: 30px;">
+      <!-- Add editing and self-correction content here -->
     </div>
   </div>
 </section>
