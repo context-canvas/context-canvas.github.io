@@ -274,21 +274,18 @@
   <div class="container is-max-widescreen">
     <!-- Qualitative Comparison Main Heading -->
     <div class="columns is-centered">
-      <div class="column has-text-centered">
-        <h2 class="title is-3">Qualitative Comparison</h2>
+      <div class="column">
+        <h2 class="title is-3" style="text-align: justify;">Qualitative Comparison</h2>
       </div>
     </div>
 
     <!-- Comparison Image -->
     <div class="columns is-centered">
       <div class="column">
-        <div class="content has-text-centered">
+        <div class="content" style="text-align: justify;">
           <img id="qualitative-comparison" src="./static/images/qualitative-comparison.jpg" alt="Qualitative Comparison" style="width: 100%; height: auto; margin-top: 20px;">
           <p class="teaser-caption">
-            Our method generalizes across popular T2I generative models-such as SDXL, Flux, and DALL-E, to accurately identify and
-            represent culturally specific characters that standard models fail to recognize. By integrating nuanced traits, iconic features, and richly
-            contextual backgrounds, it ensures visually precise and thematically authentic outputs that align closely with the narrative essence of input
-            prompts.
+            This figure highlights the comparative performance of <span class="dnerf">Context Canvas</span> against state-of-the-art methods. Our approach consistently achieves superior results in capturing culturally and contextually accurate details, including intricate features like character-specific appearances and attributes. For example, when depicting Tumburu or Mahishasura, Context Canvas preserves their unique traits with higher fidelity compared to Flux and ControlNet.
           </p>
         </div>
       </div>
@@ -297,6 +294,42 @@
 </section>
 
 
+<section class="section">
+  <div class="container is-max-widescreen">
+    <!-- Quantitative Results Main Heading -->
+    <div class="columns is-centered">
+      <div class="column has-text-centered">
+        <h2 class="title is-3" style="text-align: justify;">Quantitative Results</h2>
+      </div>
+    </div>
+
+    <!-- RAG Evaluation Subheading -->
+    <div class="columns is-centered">
+      <div class="column">
+        <h3 class="title is-4" style="text-align: justify;">RAG Evaluation</h3>
+        <div class="content" style="text-align: justify;">
+          <img id="rag-evaluation" src="./static/images/rag-quant-table.jpg" alt="RAG Evaluation Table" style="width: 100%; height: auto; margin-top: 20px;">
+          <p class="teaser-caption">
+            The RAG evaluation demonstrates the superior performance of our framework in retrieving relevant and contextually rich information. Metrics such as Attribute Accuracy Index (AAI), Context Relevance Score (CRS), and Visual Fidelity Score (VFS) highlight the precise alignment of generated images with domain-specific queries. Our method significantly outperforms baseline approaches in these metrics.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Benchmarking Against SOTA T2I Models Subheading -->
+    <div class="columns is-centered">
+      <div class="column">
+        <h3 class="title is-4" style="text-align: justify;">Benchmarking Against SOTA T2I Models</h3>
+        <div class="content" style="text-align: justify;">
+          <img id="sota-benchmarking" src="./static/images/image-gen-quant-table.jpg" alt="SOTA Benchmarking Table" style="width: 100%; height: auto; margin-top: 20px;">
+          <p class="teaser-caption">
+            This benchmarking study compares <span class="dnerf">Context Canvas</span> with state-of-the-art T2I models, including ControlNet and Stable Diffusion, across key quantitative metrics. Our framework achieves superior scores in cultural and contextual fidelity, image coherence, and narrative-specific accuracy, demonstrating its robustness and adaptability across diverse domains.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 
