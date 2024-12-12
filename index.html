@@ -209,14 +209,14 @@
           <img id="image-generation" src="./static/images/image-generation.jpg" alt="Image Generation" style="width: 120%; height: auto;">
           <p class="teaser-caption">
           <p style="font-size: 1rem; line-height: 1.5; text-align: justify; margin-top: 10px; margin-bottom: 20px; color: #444;">
-            Our method enhances image generation across diverse domains by integrating cultural and contextual details often missed by
+            Context Canvas enhances image generation across diverse domains by integrating cultural and contextual details often missed by
             standard models. For example, it accurately portrays rare Indian mythological characters like Tumburu with his horse-face and instrument,
             and Gandabherunda as a dual-headed bird (top left). It also refines depictions of Makara’s hybrid form and Kumbhakarna’s horns (second
             row, left), which Flux omits. Our method adapts to various mythologies, capturing Melinoe’s ghostly essence (left bottom) and Zhong Kui’s
             fierce warrior form (middle bottom). In Project Gutenberg domains, such as Historical Fiction, Gothic Horror, and Fantasy, it captures
             narrative-specific details like Captain Ahab’s ivory leg and gaunt expression (top 4th column) and Edmond Dant`es’ pale skin, coat, and ring
             (top 3rd column). For Gothic Horror, it enhances Count Dracula’s menacing presence (middle 3rd column) and infers Manfred’s guilty,
-            dark persona (middle 4th column). Unlike Flux’s generic depictions, our approach faithfully represents Lilith with bat wings and snakes
+            dark persona (middle 4th column). Our approach faithfully represents Lilith with bat wings and snakes
             and Lizarel with ethereal beauty and silvery hair (bottom right), demonstrating superior fidelity across cultural and literary domains.
           </p>
         </div>
@@ -227,7 +227,7 @@
     <!-- Self-Correction Subheading -->
     <div class="columns is-centered">
       <div class="column has-text-centered">
-        <h3 class="title is-4">Self-Correction</h3>
+        <h3 class="title is-4">Self-Correcting RAG-Guided Diffusion (SRD)</h3>
       </div>
     </div>
     
@@ -238,11 +238,11 @@
           <img id="self-correction" src="./static/images/self-correction.jpg" alt="Self-Correction Results" style="width: 100%; height: auto; margin-top: 20px;">
           <p class="teaser-caption">
           <p style="font-size: 1rem; line-height: 1.5; text-align: justify; margin-top: 10px; margin-bottom: 20px; color: #444;">
-            Our self-correction mechanism achieves highly accurate and culturally resonant depictions of complex mythological characters
-            through iterative, context-rich prompt refinement. In “Vritra in a fierce battle with Indra,” the system corrects Vritra’s multi-headed form,
-            drawing on the story’s cultural narrative from a robust knowledge graph to identify and position Indra accurately. For ‘Garuda’, iterative
-            adjustments restore his iconic gold jewelry and vibrant wing color, enhancing his divine representation. The process ensures fidelity for
-            “Yama on his vehicle”, automatically identifying his vehicle and adding essential symbols like his crown, mace, and noose, with precise
+            SRD achieves highly accurate and culturally resonant depictions of complex mythological characters
+            through iterative, context-rich prompt refinement. SRD corrects Vritra’s multi-headed form, drawing on the story’s cultural narrative 
+            from a robust knowledge graph to identify and position Indra accurately. For ‘Garuda’, iterative
+            adjustments restore his iconic gold jewelry and vibrant wing color, enhancing his divine representation. For
+            “Yama on his vehicle”, our approach automatically identifies his vehicle and adds essential symbols like his crown, mace, and noose, with precise
             skin tone adjustments. Similarly for ‘Mahishasura’, his incorrect tail is transformed into a snake he is typically depicted with.
           </p>
         </div>
@@ -308,7 +308,7 @@
     <div class="column">
       <p style="font-size: 1rem; line-height: 1.5; text-align: justify; margin-top: 20px;">
       We conduct a comprehensive evaluation of 'Context Canvas' in two stages, assessing both its foundational RAG component and 
-      image generation performance. We benchmark our approach against SOTA T2I models-such as Flux, SDXL, and DALL-E 3 across image generation 
+      image generation. We benchmark our approach against SOTA T2I models-such as Flux, SDXL, and DALL-E 3 across image generation 
       and two rounds of self-correction. 
       </p>
     </div>
@@ -347,8 +347,8 @@
       <div class="column">
         <div class="content has-text-centered">
           <img id="sota-benchmarking" src="./static/images/image-gen-quant-table.jpg" alt="SOTA Benchmarking Table" style="width: 100%; height: auto; margin-top: 20px;">
-          <p class="teaser-caption">
-            This benchmarking study compares <span class="dnerf">Context Canvas</span> with state-of-the-art T2I models, including ControlNet and Stable Diffusion, across key quantitative metrics. Our framework achieves superior scores in cultural and contextual fidelity, image coherence, and narrative-specific accuracy, demonstrating its robustness and adaptability across diverse domains.
+          <p class="teaser-caption" style="font-size: 1rem; line-height: 1.5; text-align: justify; margin-top: 10px; margin-bottom: 20px;">
+           We compare <span class="dnerf">Context Canvas</span> with state-of-the-art T2I models, including ControlNet and Stable Diffusion, across key quantitative metrics. Our framework achieves superior scores in cultural and contextual fidelity, image coherence, and narrative-specific accuracy, demonstrating its robustness and adaptability across diverse domains.
           </p>
         </div>
       </div>
