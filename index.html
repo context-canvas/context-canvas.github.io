@@ -178,14 +178,10 @@
     </div>
   </div>
 </div>
-
-    
-  
-
 </section>
 
 <section class="section">
-  <div class="container is-max-desktop">
+  <div class="container is-max-widescreen">
     <!-- Qualitative Results Main Heading -->
     <div class="columns is-centered">
       <div class="column has-text-centered">
@@ -202,11 +198,12 @@
 
     <!-- Image Generation Results -->
     <div class="columns is-centered">
-      <div class="column is-four-fifths">
+      <div class="column">
         <div class="content has-text-centered">
           <img id="image-generation" src="./static/images/image-generation.jpg" alt="Image Generation Results" style="width: 100%; height: auto; margin-top: 20px;">
-          <h2 class="subtitle result-caption" style="font-size: 1rem; text-align: justify; margin-top: 10px;">
-            This figure demonstrates the image generation capabilities of our proposed method. The framework retrieves relevant knowledge from the graph to generate semantically meaningful and contextually accurate images, tailored to specific prompts.
+          <h2 class="subtitle result-caption" style="font-size: 1rem; text-align: justify; margin-top: 10px; max-width: 1200px; margin-left: auto; margin-right: auto;">
+            This figure demonstrates the image generation capabilities of our proposed method. The framework retrieves relevant knowledge 
+            from the graph to generate semantically meaningful and contextually accurate images, tailored to specific prompts.
           </h2>
         </div>
       </div>
@@ -214,7 +211,14 @@
 
     <!-- Placeholder for Editing and Self-Correction Results -->
     <div class="columns is-centered" id="additional-content" style="margin-top: 30px;">
-      <!-- Add editing and self-correction content here -->
+      <div class="column">
+        <!-- Example Placeholder for Editing -->
+        <h3 class="title is-4 has-text-centered">Editing</h3>
+        <img id="editing-results" src="./static/images/editing-results.jpg" alt="Editing Results" style="width: 100%; height: auto; margin-top: 20px;">
+        <h2 class="subtitle result-caption" style="font-size: 1rem; text-align: justify; margin-top: 10px; max-width: 1200px; margin-left: auto; margin-right: auto;">
+          This figure showcases the editing capabilities of our framework, enabling dynamic adjustments to generated images using retrieved context.
+        </h2>
+      </div>
     </div>
   </div>
 </section>
