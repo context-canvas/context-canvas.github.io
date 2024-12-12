@@ -113,10 +113,14 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <!-- Teaser image -->
-      <img id="teaser-image" src="./static/images/teaser.jpg" alt="Teaser Image" style="width: 100%; height: auto;">
+      <img id="teaser-image" src="./static/images/teaser.jpg" alt="Teaser Image" style="width: 120%; height: auto;">
       <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Context Canvas</span> enhances diffusion models with 
-        knowledge graph-driven Retrieval-Augmented Generation (RAG).
+      <span class="dnerf">Context Canvas</span> significantly improves image generation for domain-specific, complex characters that T2I models might
+        otherwise struggle with (top left). Additionally, our method enables disentangled image editing by extracting precise item descriptions,
+        such as transforming a simple “add a sword” prompt into a fire sword for the character Jambavan. It also adeptly captures relationships
+        by utilizing the graph, for instance, generating Jambavan’s daughter from a simple “with his daughter” prompt, without needing explicit
+        details about her appearance (bottom middle). Moreover, we introduce a novel RAG-based self-correction technique that further refines
+        images to improve visual and narrative accuracy (right).
       </h2>
     </div>
   </div>
