@@ -320,6 +320,8 @@
         <h3 class="title is-4">RAG Evaluation</h3>
       </div>
     </div>
+
+    
     
     <!-- RAG Evaluation Table with Scaled Caption -->
     <div class="columns is-centered">
@@ -339,6 +341,21 @@
     <div class="columns is-centered">
       <div class="column has-text-centered">
         <h3 class="title is-4">Benchmarking Against SOTA T2I Models</h3>
+      </div>
+    </div>
+
+    <!-- Explanation for SOTA Benchmarking -->
+    <div class="columns is-centered">
+      <div class="column">
+        <p style="font-size: 1rem; line-height: 1.5; text-align: justify; margin-top: 20px;">
+          Traditional metrics like CLIP Score and FID, while effective for general image-text alignment and quality, fail to capture the cultural specificity, 
+          narrative depth, and relational accuracy crucial for domain-specific tasks. To address these limitations, we utilize the 
+          <a href="https://arxiv.org/abs/2306.05685" target="_blank" style="color: #007bff; text-decoration: underline;">LLM-as-a-Judge</a> 
+          framework, by defining metrics such as Attribute Accuracy, Context Relevance, Visual Fidelity, and Intent Representation. We implement the metrics 
+          using <a href="https://github.com/confident-ai/deepeval" target="_blank" style="color: #007bff; text-decoration: underline;">DeepEval</a> library. 
+          These metrics assess nuanced attributes like character-specific elements, situational alignment, and the overall essence of the generated 
+          imagery, ensuring precise evaluation aligned with user and narrative intents.
+        </p>
       </div>
     </div>
 
