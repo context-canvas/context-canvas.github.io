@@ -48,7 +48,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Context Canvas: Enhancing Text-to-Image Diffusion Models with Knowledge Graph-Based RAG</h1>
+          <h1 class="title is-1 publication-title">RAVEL: Enhancing Text-to-Image Diffusion Models with Knowledge Graph-Based RAG</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://kavanavenkatesh.github.io/">Kavana Venkatesh</a><sup>1</sup>,</span>
@@ -148,7 +148,7 @@
             generation of visually accurate and contextually rich images. Furthermore, we propose a self-correcting mechanism 
             within Stable Diffusion models to ensure consistency
             and fidelity in visual outputs, leveraging the rich context
-            from the graph to guide corrections. To our knowledge, <span class="dnerf">Context Canvas</span> represents 
+            from the graph to guide corrections. To our knowledge, <span class="dnerf">RAVEL</span> represents 
             the first application of graph-based RAG in enhancing
             T2I models, representing a significant advancement for producing high-fidelity, context-aware multi-faceted images.
           </p>
@@ -168,7 +168,7 @@
           <div class="publication-diagram" style="text-align: center;">
             <img id="method-diagram" src="./static/images/ravel-framework.jpg" alt="Paper Method Diagram" style="width: 100%; height: auto; margin-top: 20px;">
             <p class="teaser-caption" style="font-size: 1rem; line-height: 1.5; text-align: justify; margin-top: 10px; margin-bottom: 20px; color: #444;">
-              Context Canvas introduces a novel knowledge graph-based RAG framework to 
+              RAVEL introduces a novel knowledge graph-based RAG framework to 
               enhance T2I diffusion models for context-driven generation and editing of images with complex, 
               domain-specific concepts. The framework includes three key stages: 
               knowledge graph-driven image generation, context-aware image editing, and a novel self-correction mechanism. 
@@ -209,7 +209,7 @@
           <img id="image-generation" src="./static/images/img-generation.jpg" alt="Image Generation" style="width: 120%; height: auto;">
           <p class="teaser-caption">
           <p style="font-size: 1rem; line-height: 1.5; text-align: justify; margin-top: 10px; margin-bottom: 20px; color: #444;">
-            Context Canvas enhances image generation across diverse domains by integrating cultural and contextual details often missed by
+            RAVEL enhances image generation across diverse domains by integrating cultural and contextual details often missed by
             standard models. For example, it accurately portrays rare Indian mythological characters like Tumburu with his horse-face and instrument,
             and Gandabherunda as a dual-headed bird (top left). Domains such as mythology often comprise characters with multiple forms 
             (eg.,celestial and human form). Our method picks up subtle cues from user prompts to depict such characters in the right form. For instance, 
@@ -286,8 +286,8 @@
         <div class="content" style="text-align: justify;">
           <img id="qualitative-comparison" src="./static/images/qualitative-comparison.jpg" alt="Qualitative Comparison" style="width: 100%; height: auto; margin-top: 20px;">
           <p class="teaser-caption">
-            This figure highlights the comparative performance of <span class="dnerf">Context Canvas</span> against state-of-the-art methods. 
-            Our approach consistently achieves superior results in capturing contextually accurate details, including intricate features like character-specific appearances and attributes. For example, when depicting Tumburu or Mahishasura, Context Canvas preserves their unique traits with higher fidelity compared to Flux and ControlNet.
+            This figure highlights the comparative performance of <span class="dnerf">RAVEL</span> against state-of-the-art methods. 
+            Our approach consistently achieves superior results in capturing contextually accurate details, including intricate features like character-specific appearances and attributes. For example, when depicting Tumburu or Mahishasura, RAVEL preserves their unique traits with higher fidelity compared to Flux and ControlNet.
           </p>
         </div>
       </div>
@@ -309,7 +309,7 @@
   <div class="columns is-centered">
     <div class="column">
       <p style="font-size: 1rem; line-height: 1.5; text-align: justify; margin-top: 20px;">
-      We conduct a comprehensive evaluation of 'Context Canvas' in two stages, assessing both its foundational RAG component and 
+      We conduct a comprehensive evaluation of 'RAVEL' in two stages, assessing both its foundational RAG component and 
       image generation. We benchmark our approach against SOTA T2I models-such as Flux, SDXL, and DALL-E 3 across image generation 
       and two rounds of self-correction. 
       </p>
@@ -373,7 +373,7 @@
         <div class="content has-text-centered">
           <img id="sota-benchmarking" src="./static/images/image-gen-quant-table.jpg" alt="SOTA Benchmarking Table" style="width: 100%; height: auto; margin-top: 20px;">
           <p class="teaser-caption" style="font-size: 1rem; line-height: 1.5; text-align: justify; margin-top: 10px; margin-bottom: 20px;">
-           We compare <span class="dnerf">Context Canvas</span> with SOTA T2I models across key quantitative metrics. 
+           We compare <span class="dnerf">RAVEL</span> with SOTA T2I models across key quantitative metrics. 
             Our framework achieves superior scores in cultural and contextual fidelity, image coherence, and narrative-specific accuracy, 
             demonstrating its robustness and adaptability across diverse domains.
           </p>
@@ -389,7 +389,7 @@
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>@misc{venkatesh2024contextcanvasenhancingtexttoimage,
-              title={Context Canvas: Enhancing Text-to-Image Diffusion Models with Knowledge Graph-Based RAG}, 
+              title={RAVEL: Enhancing Text-to-Image Diffusion Models with Knowledge Graph-Based RAG}, 
               author={Kavana Venkatesh and Yusuf Dalva and Ismini Lourentzou and Pinar Yanardag},
               year={2024},
               eprint={2412.09614},
