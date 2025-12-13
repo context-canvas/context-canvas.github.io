@@ -139,15 +139,19 @@ and narrative accuracy.
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We introduce a novel approach to enhance the capabilities of text-to-image models by incorporating Retrieval-Augmented Generation 
-            with a knowledge graph. Our system dynamically retrieves detailed character information
-            and relational data from the knowledge graph, enabling the
-            generation of visually accurate and contextually rich images. Furthermore, we propose a self-correcting mechanism 
-            within Stable Diffusion models to ensure consistency
-            and fidelity in visual outputs, leveraging the rich context
-            from the graph to guide corrections. To our knowledge, <span class="dnerf">RAVEL</span> represents 
-            the first application of graph-based RAG in enhancing
-            T2I models, representing a significant advancement for producing high-fidelity, context-aware multi-faceted images.
+            Despite impressive visual fidelity, current text-to-image (T2I) diffusion models struggle to depict rare, complex, 
+            or culturally nuanced concepts due to training data limitations. We introduce <span class="dnerf">RAVEL</span>, 
+            a training-free framework that significantly improves rare concept generation, context-driven image editing, 
+            and self-correction by integrating graph-based retrieval-augmented generation (RAG) into diffusion pipelines. 
+            Unlike prior RAG and LLM-enhanced methods reliant on visual exemplars, static captions or pretrained knowledge of models, 
+            <span class="dnerf">RAVEL</span> leverages structured knowledge graphs to retrieve compositional, symbolic, and relational context, 
+            enabling nuanced grounding even in the absence of visual priors. To further refine generation quality, we propose <span class="dnerf">SRD</span>, 
+            a novel self-correction module that iteratively updates prompts via multi-aspect alignment feedback, enhancing attribute accuracy, 
+            narrative coherence, and semantic fidelity. Our framework is model-agnostic and compatible with leading diffusion models including Stable Diffusion XL, 
+            Flux, and DALL-E 3. We conduct extensive evaluations across three newly proposed benchmarks - <span class="dnerf">MythoBench</span>, 
+            <span class="dnerf">Rare-Concept-1K</span>, and <span class="dnerf">NovelBench</span>. <span class="dnerf">RAVEL</span> also consistently 
+            outperforms SOTA methods across perceptual, alignment, and LLM-as-a-Judge metrics. These results position <span class="dnerf">RAVEL</span> 
+            as a robust paradigm for controllable and interpretable T2I generation in long-tail domains.
           </p>
         </div>
       </div>
